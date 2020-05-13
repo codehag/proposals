@@ -12,18 +12,18 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 ### Stage 3
 
-| Proposal                                                               | Author                           | Champion                         | <sub>Last Presented</sub>                             |
-| ---------------------------------------------------------------------- | -------------------------------- | -------------------------------- | ----------------------------------------------------- |
-| [`Intl.ListFormat`][intl.listformat]                                   | Zibi Braniecki                   | Zibi Braniecki                   |                                                       |
-| [`DateTimeFormat` `dateStyle` & `timeStyle`][datetimeformat]           | Zibi Braniecki                   | Zibi Braniecki                   | [March&nbsp;2019][datetimeformat-notes]               |
-| [`Intl.DateFormat.prototype.formatRange`][formatrange]                 | Felipe Balbontín                 | Sathya Gunasekaran               | [March&nbsp;2019][formatrange-notes]                  |
-| [Intl.DisplayNames][proposal-intl-displaynames]                        | Frank Tang                       | Frank Tang                       | [October&nbsp;2019][proposal-intl-displaynames-notes] |
+| Fx Status | Proposal                                                               | Author                           | Champion                         | <sub>Last Presented</sub>                             |
+| ---------- | ---------------------------------------------------------------------- | -------------------------------- | -------------------------------- | ----------------------------------------------------- |
+| [Fx71](https://bugzilla.mozilla.org/show_bug.cgi?id=1433306) | [`Intl.ListFormat`][intl.listformat]                                   | Zibi Braniecki                   | Zibi Braniecki                   |                                                       |
+| [In progress](https://bugzilla.mozilla.org/show_bug.cgi?id=1557718) | [`DateTimeFormat` `dateStyle` & `timeStyle`][datetimeformat]           | Zibi Braniecki                   | Zibi Braniecki                   | [March&nbsp;2019][datetimeformat-notes]               |
+| [Available](https://bugzilla.mozilla.org/show_bug.cgi?id=1496584) | [`Intl.DateFormat.prototype.formatRange`][formatrange]                 | Felipe Balbontín                 | Sathya Gunasekaran               | [March&nbsp;2019][formatrange-notes]                  |
+| [Available](https://bugzilla.mozilla.org/show_bug.cgi?id=1557727) | [Intl.DisplayNames][proposal-intl-displaynames]                        | Frank Tang                       | Frank Tang                       | [October&nbsp;2019][proposal-intl-displaynames-notes] |
 
 ### Stage 2
 
-| Proposal                                                               | Author                                    | Champion                                                       | <sub>Last Presented</sub>             |
-| ---------------------------------------------------------------------- | ----------------------------------------- | -------------------------------------------------------------- | ------------------------------------- |
-| [`Intl.Segmenter`: Unicode Segmentation in JavaScript][intl-segmenter] | Daniel Ehrenberg and Richard Gibson       | Richard Gibson                                                 | [February 2020][intl-segmenter-notes] |
+| Fx Status | Proposal                                                               | Author                                    | Champion                                                       | <sub>Last Presented</sub>             |
+| ---------- | ---------------------------------------------------------------------- | ----------------------------------------- | -------------------------------------------------------------- | ------------------------------------- |
+| [awaiting team feedback](https://bugzilla.mozilla.org/show_bug.cgi?id=1423593) | [`Intl.Segmenter`: Unicode Segmentation in JavaScript][intl-segmenter] | Daniel Ehrenberg and Richard Gibson       | Richard Gibson                                                 | [February 2020][intl-segmenter-notes] |
 
 ### Stage 1
 
