@@ -17,7 +17,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | [Fx71](https://bugzilla.mozilla.org/show_bug.cgi?id=1433306) | [`Intl.ListFormat`][intl.listformat]                                   | Zibi Braniecki                   | Zibi Braniecki                   |                                                       |
 | [In progress](https://bugzilla.mozilla.org/show_bug.cgi?id=1557718) | [`DateTimeFormat` `dateStyle` & `timeStyle`][datetimeformat]           | Zibi Braniecki                   | Zibi Braniecki                   | [March&nbsp;2019][datetimeformat-notes]               |
 | [Available](https://bugzilla.mozilla.org/show_bug.cgi?id=1496584) | [`Intl.DateFormat.prototype.formatRange`][formatrange]                 | Felipe Balbontín                 | Sathya Gunasekaran               | [March&nbsp;2019][formatrange-notes]                  |
-| [Available](https://bugzilla.mozilla.org/show_bug.cgi?id=1557727) | [Intl.DisplayNames][proposal-intl-displaynames]                        | Frank Tang                       | Frank Tang                       | [October&nbsp;2019][proposal-intl-displaynames-notes] |
+| [In progress](https://bugzilla.mozilla.org/show_bug.cgi?id=1557727) | [Intl.DisplayNames][proposal-intl-displaynames]                        | Frank Tang                       | Frank Tang                       | [October&nbsp;2019][proposal-intl-displaynames-notes] |
 
 ### Stage 2
 
