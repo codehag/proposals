@@ -15,22 +15,24 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | Fx Status | Proposal                                                               | Author                           | Champion                         | <sub>Last Presented</sub>                             |
 | ---------- | ---------------------------------------------------------------------- | -------------------------------- | -------------------------------- | ----------------------------------------------------- |
 | [Fx71](https://bugzilla.mozilla.org/show_bug.cgi?id=1433306) | [`Intl.ListFormat`][intl.listformat]                                   | Zibi Braniecki                   | Zibi Braniecki                   |                                                       |
-| [In progress](https://bugzilla.mozilla.org/show_bug.cgi?id=1557718) | [`DateTimeFormat` `dateStyle` & `timeStyle`][datetimeformat]           | Zibi Braniecki                   | Zibi Braniecki                   | [March&nbsp;2019][datetimeformat-notes]               |
-| [Available](https://bugzilla.mozilla.org/show_bug.cgi?id=1496584) | [`Intl.DateFormat.prototype.formatRange`][formatrange]                 | Felipe Balbontín                 | Sathya Gunasekaran               | [March&nbsp;2019][formatrange-notes]                  |
+| [Fx80](https://bugzilla.mozilla.org/show_bug.cgi?id=1557718) | [`DateTimeFormat` `dateStyle` & `timeStyle`][datetimeformat]           | Zibi Braniecki                   | Zibi Braniecki                   | [March&nbsp;2019][datetimeformat-notes]               |
+| [FX79](https://bugzilla.mozilla.org/show_bug.cgi?id=1496584) | [`Intl.DateFormat.prototype.formatRange`][formatrange]                 | Felipe Balbontín                 | Sathya Gunasekaran               | [March&nbsp;2019][formatrange-notes]                  |
 | [Fx78](https://bugzilla.mozilla.org/show_bug.cgi?id=1557727) | [Intl.DisplayNames][proposal-intl-displaynames]                        | Frank Tang                       | Frank Tang                       | [October&nbsp;2019][proposal-intl-displaynames-notes] |
 
 ### Stage 2
 
 | Fx Status | Proposal                                                               | Author                                    | Champion                                                       | <sub>Last Presented</sub>             |
 | ---------- | ---------------------------------------------------------------------- | ----------------------------------------- | -------------------------------------------------------------- | ------------------------------------- |
-| [awaiting team feedback](https://bugzilla.mozilla.org/show_bug.cgi?id=1423593) | [`Intl.Segmenter`: Unicode Segmentation in JavaScript][intl-segmenter] | Daniel Ehrenberg and Richard Gibson       | Richard Gibson                                                 | [February 2020][intl-segmenter-notes] |
+| [Available](https://bugzilla.mozilla.org/show_bug.cgi?id=1423593) | [`Intl.Segmenter`: Unicode Segmentation in JavaScript][intl-segmenter] | Daniel Ehrenberg and Richard Gibson       | Richard Gibson                                                 | [February 2020][intl-segmenter-notes] |
+| [Available](https://bugzilla.mozilla.org/show_bug.cgi?id=1423593) | [`Intl.DurationFormat`][intl.durationformat]                               | Younies Mahmoud, Ujjwal Sharma   | Younies Mahmoud, Ujjwal Sharma   | [June&nbsp;2020][intl.durationformat-notes]           |
+| [Available](https://bugzilla.mozilla.org/show_bug.cgi?id=1423593) | [`Intl.NumberFormat` V3][intl-v3]                                          | Shane Carr | Shane Carr                                                         | [June 2020][intl-v3-notes]            |
 
 ### Stage 1
 
 | Proposal                                                     | Author          | Champion        | <sub>Last Presented</sub>                                        |
 | ------------------------------------------------------------ | --------------- | --------------- | ---------------------------------------------------------------- |
-| [`Intl.DurationFormat`][intl.durationformat]                 | Younies Mahmoud | Younies Mahmoud | [February 2020][intl.durationformat-notes]                       |
-| [Intl.NumberFormat V3][intl-v3]                              | Shane Carr      | Shane Carr      | March 2020                                                       |
+| [Intl.Enumeration API][intl-enumeration]                     | Frank Tang      | Frank Tang      | June 2020
+| [Smart Unit Preferences in Intl.NumberFormat][smart-units]   | Younies Mahmoud | Younies Mahmoud | June 2020
 
 ### Contributing new proposals
 
@@ -55,6 +57,10 @@ Note that as part of the onboarding process your repository name may be normaliz
 [formatrange-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-03/mar-26.md#intldatetimeformatprototypeformatrange-for-stage-3
 [proposal-intl-displaynames]: https://github.com/tc39/proposal-intl-displaynames
 [proposal-intl-displaynames-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-10/october-2.md#intldisplaynames
-[intl.durationformat]: https://github.com/younies/proposal-intl-duration-format
+[intl.durationformat]: https://github.com/tc39/proposal-intl-duration-format
 [intl.durationformat-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-6.md#time-duration-format-proposal-for-stage-1
 [intl-v3]: https://github.com/sffc/proposal-intl-numberformat-v3
+[intl-v3-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-06/june-2.md#intlnumberformat-v3-for-stage-2
+[intl-enumeration]: https://github.com/FrankYFTang/proposal-intl-enumeration
+[smart-units]: https://github.com/younies/proposal-intl-number-format-usage
+
