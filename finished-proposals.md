@@ -36,16 +36,17 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | ? | [`for-in` mechanics][for-in-mechanics]                                   | Kevin Gibbons                                          | Kevin Gibbons                                           | [December&nbsp;2019][for-in-mechanics-notes]| 2020                      |
 | [74](https://bugzilla.mozilla.org/show_bug.cgi?id=1566143) | [Optional Chaining][chaining]                                            | Gabriel Isenberg<br />Claude Pache<br />Dustin Savery  | Gabriel Isenberg<br />Dustin Savery<br />Justin Ridgewell<br />Daniel Rosenwasser | [December 2019][chaining-notes] | 2020        |
 | [Fx72](https://bugzilla.mozilla.org/show_bug.cgi?id=1566141) | [Nullish coalescing Operator][nullish-coalescing]                        | Gabriel Isenberg                                       | Gabriel Isenberg<br />Justin Ridgewell<br />Daniel Rosenwasser | [December 2019][nullish-coalescing-notes] | 2020                 |
-| [Fx62](https://bugzilla.mozilla.org/show_bug.cgi?id=1427610) | [`import.meta`][import-meta]                                             | Domenic Denicola                                       | Gus Caplan                                              | [March 2020][import-meta-notes]        | 2020                           |
-| [Fx72](https://bugzilla.mozilla.org/show_bug.cgi?id=1540021) | [`String.prototype.replaceAll`][replace-all]                             | Peter Marshall<br />Jakob Gruber<br />Mathias Bynens   | Mathias Bynens                                          | June 2020                              | 2021                           |
-| [Fx72](https://bugzilla.mozilla.org/show_bug.cgi?id=1568903) | [`Promise.any`][promise-any]                                             | Mathias Bynens<br />Kevin Gibbons<br />Sergey Rubanov  | Mathias Bynens                                          | July 2020                              | 2021                           |
-| [In Progress](https://bugzilla.mozilla.org/show_bug.cgi?id=1561074) | [WeakRefs][weakrefs]                                                     | Dean Tribble<br />Sathya Gunasekaran                   | Dean Tribble<br />Mark Miller<br />Till Schneidereit<br />Sathya Gunasekaran<br />Daniel Ehrenberg | July 2020 | 2021             |
-| [Fx77](https://bugzilla.mozilla.org/show_bug.cgi?id=1629106) | [Logical Assignment Operators][logical-assignment]                       | Justin Ridgewell                                       | Justin Ridgewell <br /> Hemanth HM                      | July 2020                              | 2021                           |
-| [Fx68](https://bugzilla.mozilla.org/show_bug.cgi?id=1421400) | [Numeric separators][numeric_separators]                                 | Sam Goto<br />Rick Waldron                             | Sam Goto<br />Rick Waldron                              | July 2020                              | 2021                           |
+| [Fx62](https://bugzilla.mozilla.org/show_bug.cgi?id=1427610) | [`import.meta`][import-meta]                                             | Domenic Denicola                                       | Gus Caplan                                              | [March 2020][import-meta-notes]             | 2020                      |
+| [Fx72](https://bugzilla.mozilla.org/show_bug.cgi?id=1540021) | [`String.prototype.replaceAll`][replace-all]                             | Peter Marshall<br />Jakob Gruber<br />Mathias Bynens   | Mathias Bynens                                          | [June 2020][replace-all-notes]              | 2021                      |
+| [Fx72](https://bugzilla.mozilla.org/show_bug.cgi?id=1568903) | [`Promise.any`][promise-any]                                             | Mathias Bynens<br />Kevin Gibbons<br />Sergey Rubanov  | Mathias Bynens                                          | [July 2020][promise-any-notes]              | 2021                      |
+| [Fx79](https://bugzilla.mozilla.org/show_bug.cgi?id=1561074) | [WeakRefs][weakrefs]                                                     | Dean Tribble<br />Sathya Gunasekaran                   | Dean Tribble<br />Mark Miller<br />Till Schneidereit<br />Sathya Gunasekaran<br />Daniel Ehrenberg | [July 2020][weakrefs-notes] | 2021 |
+| [Fx77](https://bugzilla.mozilla.org/show_bug.cgi?id=1629106) | [Logical Assignment Operators][logical-assignment]                       | Justin Ridgewell                                       | Justin Ridgewell <br /> Hemanth HM                      | [July 2020][logical-assignment-notes]       | 2021                      |
+| [Fx68](https://bugzilla.mozilla.org/show_bug.cgi?id=1421400) | [Numeric separators][numeric_separators]                                 | Sam Goto<br />Rick Waldron                             | Sam Goto<br />Rick Waldron                              | [July 2020][numeric_separators-notes]       | 2021                      |
+
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
-[array-includes]: https://github.com/tc39/Array.prototype.includes
+[array-includes]: https://github.com/tc39/proposal-Array.prototype.includes
 [array-includes-notes]: https://github.com/tc39/notes/blob/master/meetings/2015-11/nov-17.md#arrayprototypeincludes
 [exponentiation]: https://github.com/tc39/proposal-exponentiation-operator
 [exponentiation-notes]: https://github.com/tc39/notes/blob/master/meetings/2016-01/jan-28.md#5xviii-exponentiation-operator-rw
@@ -57,7 +58,7 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [object-gopds-notes]: https://github.com/tc39/notes/blob/master/meetings/2016-05/may-25.md#objectgetownpropertydescriptors-jhd
 [function-commas]: https://github.com/tc39/proposal-trailing-function-commas
 [function-commas-notes]: https://github.com/tc39/notes/blob/master/meetings/2016-07/jul-26.md#9ie-trailing-commas-in-functions
-[async-await]: https://github.com/tc39/ecmascript-asyncawait
+[async-await]: https://github.com/tc39/proposal-async-await
 [async-await-notes]: https://github.com/tc39/notes/blob/master/meetings/2016-07/jul-28.md#10iv-async-functions
 [atomics]: https://github.com/tc39/ecmascript_sharedmem
 [atomics-notes]: https://github.com/tc39/notes/blob/master/meetings/2017-01/jan-24.md#13if-seeking-stage-4-for-sharedarraybuffer
@@ -112,11 +113,12 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [import-meta]: https://github.com/tc39/proposal-import-meta
 [import-meta-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-03/april-1.md#importmeta-for-stage-4-continued-from-previous-day
 [replace-all]: https://github.com/tc39/proposal-string-replaceall
+[replace-all-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-06/june-2.md#stringprototypereplaceall-for-stage-4
 [promise-any]: https://github.com/tc39/proposal-promise-any
-[promise-any-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-10/october-3.md#promiseany-reprise
+[promise-any-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-07/july-21.md#promiseany--aggregateerror-for-stage-4
 [weakrefs]: https://github.com/tc39/proposal-weakrefs
-[weakrefs-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-03/april-1.md#weakrefs-finalizationregistry-api-change
+[weakrefs-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-07/july-21.md#weakrefs-for-stage-4--cleanupsome-for-stage-23
 [logical-assignment]: https://github.com/tc39/proposal-logical-assignment
-[logical-assignment-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-03/march-31.md#logicalassignment-for-stage-3
+[logical-assignment-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-07/july-21.md#logical-assignment-for-stage-4
 [numeric_separators]: https://github.com/tc39/proposal-numeric-separator
-[numeric_separators-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-03/mar-28.md#decorator-based-extended-numeric-literals-status-update-and-numeric-separators-for-stage-3
+[numeric_separators-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-07/july-21.md#numericliteralseparator-for-stage-4
